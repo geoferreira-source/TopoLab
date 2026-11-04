@@ -4,12 +4,15 @@ qgisMinimumVersion=3.28
 qgisMaximumVersion=4.99
 description=Topografia dentro do QGIS: TIN, curvas de nível e volumes de corte/aterro (com recorte por polígono), perfis e seções em janela própria
 version=0.16.0
-author=Miguel
-email=
+author=Miguel Ferreira
+email=geo.miguelferreira@gmail.com
+
 about=Suíte de topografia para o QGIS com janela independente. Inclui TIN, curvas de nível e volumes de corte e aterro (contra cota de referência e entre duas superfícies, com recorte opcional por polígono) e platô com taludes (off-set, cota de equilíbrio), além de um provedor de Processing. Assistente de importação de CSV/TXT (separador, decimal, N/E) e abertura direta de DXF/Shapefile/GeoTIFF. Perfil longitudinal e seções transversais (áreas e volumes por média das áreas, CSV por estaca). Linhas de quebra e limite do MDT na triangulação (Delaunay conforme). Verificação de qualidade dos pontos, mapas temáticos (declividade, elevação, inundação, corte/aterro), roteiro perimétrico e leitura de memorial. Conversão de MDE raster em pontos e exportação de camadas para DXF (R12). Planilha de poligonal (fechada, enquadrada e aberta) com fechamento angular e linear, ajuste, coordenadas, área, relatório e rascunho de memorial descritivo.
-tracker=
-repository=
-homepage=
+
+repository=https://github.com/geoferreira-source/TopoLab
+tracker=https://github.com/geoferreira-source/TopoLab/issues
+homepage=https://github.com/geoferreira-source/TopoLab
+
 changelog=0.16.0: platô com bermas nos taludes de corte e aterro (volumes, off-set, cota de equilíbrio e linhas das bordas de cada berma).
   0.15.0: cálculos da janela em segundo plano (o QGIS não trava; barra de progresso e botão Cancelar); TIN com linhas de quebra e limite cerca de 40% mais rápido e mais fiel perto do limite do MDT.
   0.14.0: mapas temáticos muito mais rápidos (um polígono por classe, com furos, em vez de um por triângulo); tolerância "sem alteração" na mancha de corte e aterro (padrão 5 cm), com volume por classe; legendas com o nome de cada classe.
